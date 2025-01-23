@@ -18,6 +18,14 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+.italic {
+  font-family: var(--font--family);
+  font-style: italic;
+  font-weight: var(--font--weight);
+  font-feature-settings: var(--font--feature-settings);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
 
 html {
   font-size: var(--font--size-regular);
