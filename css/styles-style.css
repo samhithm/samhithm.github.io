@@ -561,6 +561,12 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 }
 .work-image.content-right {
   grid-column: 9 / 12;
+  border: 1px solid #FFFFFF;
+  padding: 10px;
+  border-radius: 15px;
+}
+.work-image.content-right:hover {
+  background-color: #343A40;
 }
 
 /* Section intro
