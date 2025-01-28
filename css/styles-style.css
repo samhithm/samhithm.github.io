@@ -552,8 +552,7 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 }
 .work-image.content-left {
   grid-column: 5 / 8;
-  background-color: #1c1f2b;
-  opacity: 0.5;
+  border: 1px solid #625D5D;
   padding: 10px;
   border-radius: 15px;
 }
@@ -563,8 +562,7 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 }
 .work-image.content-right {
   grid-column: 9 / 12;
-  background-color: #1c1f2b;
-  opacity: 0.5;
+  border: 1px solid #625D5D;
   padding: 10px;
   border-radius: 15px;
 }
@@ -574,8 +572,7 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 }
 .work-image.content-center {
   grid-column: 7 / 10;
-  background-color: #1c1f2b;
-  opacity: 0.5;
+  border: 1px solid #625D5D;
   padding: 10px;
   border-radius: 15px;
 }
