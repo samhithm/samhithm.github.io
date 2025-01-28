@@ -718,24 +718,24 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 /* Section photography
 ----------------------------------------------------------------------------- */
 
-.photography {
+.body {
   background-color: black;
   height: 100vh;
   margin: 0px;
   overflow: hidden;
 }
 
-.photography.image {
+.image {
   width: 40vmin;
   position: absolute;
   transform: translate(-50%, -50%);
 }
 
-.photography.image[data-status="inactive"] {
+.image[data-status="inactive"] {
   display: none;
 }
 
-.photography.image[data-status="active"] {
+.image[data-status="active"] {
   display: block;
 }
 
