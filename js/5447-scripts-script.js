@@ -123,7 +123,7 @@ $(document).ready(function() {
     $('.app-nav .item.photography').click(function() {
       if ( $('body').hasClass('mobile-nav--is--visible') ){
         function scrollDelay() {
-          window.setTimeout(scrollToWork, 300);
+          window.setTimeout(scrollToPhotography, 300);
         }
         scrollDelay();
       }
