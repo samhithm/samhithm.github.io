@@ -1,4 +1,4 @@
-const photography = document.getElementsByClassName("image");
+const images = document.getElementsByClassName("image");
 
 let globalIndex = 0,
     last = { x: 0, y: 0 };
@@ -19,8 +19,8 @@ const distanceFromLast = (x, y) => {
 
 const handleOnMove = e => {
   if(distanceFromLast(e.clientX, e.clientY) > (window.innerWidth / 20)) {
-    const lead = photography[globalIndex % photography.length],
-          tail = photography[(globalIndex - 5) % photography.length];
+    const lead = images[globalIndex % images.length],
+          tail = images[(globalIndex - 5) % images.length];
 
     activate(lead, e.clientX, e.clientY);
 
