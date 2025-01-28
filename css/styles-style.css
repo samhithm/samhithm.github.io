@@ -575,8 +575,8 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   border-radius: 15px;
 }
 .work-image.content-center:hover {
-  border: none
   background-color: #2E588A;
+  border: none
 }
 
 /* Section intro
