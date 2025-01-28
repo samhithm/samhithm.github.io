@@ -711,7 +711,7 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   padding: 0;
   display: flex;
 }
-.section.work > .content {
+.section.photography > .content {
   padding: 50vh 0 20px 0;
 }
 #gallery {
@@ -767,19 +767,8 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   transition: filter 2s;
 }
 
-
-@media all and (min-width: 1000px) {
-  .section.work .hero-image .image {
-    background-image: url("../images/work-Samhith-Mitra-work-collage-2880.jpg");
-  }
-}
-@media all and (min-width: 2000px) {
-  .section.work .hero-image .image {
-    background-image: url("../images/work-Samhith-Mitra-work-collage-5760.jpg");
-  }
-}
-.section.work .hero-image .image-overlay-01,
-.section.work .hero-image .image-overlay-02 {
+.section.photography .hero-image .image-overlay-01,
+.section.photography .hero-image .image-overlay-02 {
   position: absolute;
   top: 0;
   left: 0;
