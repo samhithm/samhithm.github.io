@@ -568,6 +568,15 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 .work-image.content-right:hover {
   background-color: #343A40;
 }
+.work-image.content-center {
+  grid-column: 7 / 10;
+  border: 1px solid #A0A0A0;
+  padding: 10px;
+  border-radius: 15px;
+}
+.work-image.content-right:hover {
+  background-color: #2E588A;
+}
 
 /* Section intro
 ----------------------------------------------------------------------------- */
