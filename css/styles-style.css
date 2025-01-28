@@ -715,31 +715,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   height: 100%;
 }
 
-/* Section photography
------------------------------------------------------------------------------ */
-
-.body {
-  background-color: black;
-  height: 100vh;
-  margin: 0px;
-  overflow: hidden;
-}
-
-.image {
-  width: 40vmin;
-  position: absolute;
-  transform: translate(-50%, -50%);
-}
-
-.image[data-status="inactive"] {
-  display: none;
-}
-
-.image[data-status="active"] {
-  display: block;
-}
-
-
 /* Section values
 ----------------------------------------------------------------------------- */
 
