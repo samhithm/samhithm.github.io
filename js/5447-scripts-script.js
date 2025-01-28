@@ -119,6 +119,19 @@ $(document).ready(function() {
     }
   });
 
+    // Scroll to Photography from app nav
+    $('.app-nav .item.photography').click(function() {
+      if ( $('body').hasClass('mobile-nav--is--visible') ){
+        function scrollDelay() {
+          window.setTimeout(scrollToWork, 300);
+        }
+        scrollDelay();
+      }
+      else {
+        scrollToPhotography();
+      }
+    });
+
   // Scroll to About from app nav
   $('.app-nav .item.about').click(function() {
     if ( $('body').hasClass('mobile-nav--is--visible') ){
@@ -321,7 +334,11 @@ function scrollToReferences() {
 
 // Scroll to Work
 function scrollToWork() {
-  $('html, body').animate({ scrollTop: $('.section.work').offset().top }, 750, 'easeOutCubic');
+  $('html, body').animate({ scrollTop: $('.section.works').offset().top }, 750, 'easeOutCubic');
+}
+// Scroll to Photography
+function scrollToPhotography() {
+  $('html, body').animate({ scrollTop: $('.section.photography').offset().top }, 750, 'easeOutCubic');
 }
 
 // Scroll to About
