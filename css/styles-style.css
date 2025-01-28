@@ -574,7 +574,7 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   padding: 10px;
   border-radius: 15px;
 }
-.work-image.content-right:hover {
+.work-image.content-center:hover {
   background-color: #2E588A;
 }
 
