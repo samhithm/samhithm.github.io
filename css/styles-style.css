@@ -558,6 +558,7 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 }
 .work-image.content-left:hover {
   background-color: #343A40;
+  border: none;
 }
 .work-image.content-right {
   grid-column: 9 / 12;
@@ -567,10 +568,11 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 }
 .work-image.content-right:hover {
   background-color: #343A40;
+  border: none;
 }
 .work-image.content-center {
   grid-column: 7 / 10;
-  border: 1px solid #A0A0A0;
+  border: 1px solid #2E588A;
   padding: 10px;
   border-radius: 15px;
 }
