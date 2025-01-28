@@ -578,6 +578,7 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   box-shadow: 0px 0px 42px 10px #004BFB;
   padding: 10px;
   border-radius: 15px;
+  padding-top: 50px;
 }
 .work-image.content-center:hover {
   background-color: #004BFB;
