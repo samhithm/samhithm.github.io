@@ -558,6 +558,11 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   padding: 10px;
   text-align: left;
 }
+.work-image.content-left:hover {
+  background-color: #004BFB;
+  box-shadow: none;
+  border: none;
+}
 .work-image.content-right {
   grid-column: 9 / 12;
   box-shadow: 0px 0px 10px 2px #303030;
@@ -566,11 +571,16 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   padding: 10px;
   text-align: left;
 }
+.work-image.content-right:hover {
+  background-color: #004BFB;
+  box-shadow: none;
+  border: none;
+}
 .work-image.content-center {
   grid-column: 7 / 10;
-  box-shadow: 0px 0px 10px 2px #004BFB;
+  box-shadow: 0px 0px 10px 2px #303030;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 .work-image.content-center:hover {
   background-color: #004BFB;
@@ -666,7 +676,7 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 ----------------------------------------------------------------------------- */
 
 .section.work {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 .section.work > .content {
